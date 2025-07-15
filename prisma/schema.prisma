@@ -6,7 +6,8 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../lib/generated/prisma"
+  previewFeatures = ["driverAdapters"]
+  // output   = "../lib/generated/prisma" aceasta linie este aiurea aici si va da eroare de generare
 }
 
 datasource db {
